@@ -88,6 +88,11 @@ export default async function ProjectsPage() {
                 >
                   {featured.title}
                 </h2>
+                {featured.techstack?.map((tech) => (
+                  <span className="bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">
+                    {tech}
+                  </span>
+                ))}
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                   {featured.description}
                 </p>
