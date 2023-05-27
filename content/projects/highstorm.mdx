@@ -1,26 +1,50 @@
 ---
-title: highstorm.app
-description: Simple, fast, open source custom event tracking
+title: React Flow Task
+description: This project is a simple React application built with React Flow and next.js . It demonstrates the implementation of drag and drop nodes with the ability to connect them. The state of the nodes and their connections can be saved and restored.
 date: "2023-05-01"
-url: https://highstorm.app
+url: https://chatbot-flow-builder.vercel.app/
 published: true
-repository: "chronark/highstorm"
-  
+repository: "sidx8/Chatbot-flow-builder"
 ---
 
+[![](https://github.com/sidx8/Chatbot-flow-builder/blob/main/public/demo.gif?raw=true)](https://chatbot-flow-builder.vercel.app/)
 
- [![](https://highstorm.app/og.png)](https://highstorm.app) 
+## Features
 
-Reduce the noise in your Slack workspace by consolidating all your event data into one place, filtering alerts by relevance, and customizing your alert settings to suit your needs.
+1. Drag and drop nodes.
+2. Connect nodes by clicking and dragging from one node's edge to another.
+3. Clicking on a node selects it, and its label can be modified from the sidebar.
+4. Clicking anywhere on the pane deselects the selected node.
+5. Save and restore functionality, which saves the current state of the nodes and their connections, and can restore the state later.
 
-###### Consolidate Events
-Get all your event data in one place to reduce alert noise
+## Setup and Installation
 
-###### Stay Focused
-Keep your Slack workspace focused on what's important
+First, clone the repository to your local machine:
 
-###### Customizable Settings
-Customize your alert settings to suit your unique needs
+```bash
+git clone https://github.com/sidx8/Chatbot-flow-builder.git
+```
 
-###### Clear Overview
-Get a clear overview of all your alerts in one place
+Navigate into the project directory:
+
+```bash
+cd [project-folder-name]
+```
+
+Install the project dependencies:
+
+```bash
+npm install
+```
+
+To start the project in development mode:
+
+```bash
+npm start
+```
+
+The application should now be running on http://localhost:3000.
+
+## Deployment
+
+The project can be deployed on any hosting service that supports Node.js applications. Examples of such services include Heroku, Vercel, and Netlify. Please refer to the respective platform's documentation for deploying React applications.
