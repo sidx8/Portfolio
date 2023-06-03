@@ -7,18 +7,19 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
   title: {
     default: "Siddharth Sinha",
-    template: "%s | chronark.com",
+    template: "%s | Sidx8",
   },
-  description: "Software engineer at upstash.com and founder of planetfall.io",
+  description:
+    " Hi, my name is Siddharth, I'm Working as a software engineer at Nsketch",
   openGraph: {
-    title: "chronark.com",
+    title: "Siddharth Sinha",
     description:
-      "Software engineer at upstash.com and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      " Hi, my name is Siddharth, I'm Working as a software engineer at Nsketch",
+    url: "https://portfolio-sidx8.vercel.app/",
+    siteName: "portfolio",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://portfolio-sidx8.vercel.app/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Siddharth Sinha",
     card: "summary_large_image",
   },
   icons: {
