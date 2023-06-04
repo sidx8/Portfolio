@@ -1,4 +1,5 @@
 "use client";
+import Particles from "@/app/components/particles";
 import { ArrowLeft, Eye, Github, Twitter } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
